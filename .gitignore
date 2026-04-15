@@ -1,0 +1,44 @@
+# Maven
+/target/
+!.mvn/wrapper/maven-wrapper.jar
+**/target/**
+
+# IDE files
+.idea/
+*.iml
+*.ipr
+*.iws
+.ntvs*
+*.suo
+*.ntvs*
+*.vscode/
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Build artifacts
+*.class
+
+# Package files
+*.jar
+*.war
+*.ear
+
+# Temporary files
+*~
+# backup files
+*.bak
+*.tmp
+
+# Maven wrapper files
+.mvn/wrapper/maven-wrapper.jar
+.mvn/wrapper/maven-wrapper.properties
