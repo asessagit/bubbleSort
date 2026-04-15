@@ -11,14 +11,23 @@ Construir um algoritmo que preencha um vetor de tamanho 10 com valores numérico
 
 ## Como executar
 
-```bash
-cd ~/projetos
-mvn compile
-mvn exec:java
 ```
+Este projeto utiliza Maven para compilar e rodar o algoritmo Bubble Sort em Java.
 
-Ou diretamente com classes compiladas:
+Após clonar ou fazer fork do repositório, basta rodar o script:
 
-```bash
-java -cp target/classes com.example.ordenacao.OrdenacaoBubble
+bash
+./run.sh
+
+Exemplo de execução:
+O programa irá solicitar que você digite 10 números e, ao final, exibirá o vetor em ordem crescente.
+
+Entre com o número 1: 123
+Entre com o número 2: 654
+...
+Entre com o número 10: 943
+
+Vetor em ordem crescente:
+123 156 189 357 654 753 789 943 951 987
+
 ```
